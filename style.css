@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 200px 140px;
+    background-color: gainsboro;
+}
+header {
+    background-image: url(arthur-poulin-NhU0nUR7920-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 410px;
+    text-align: center;
+    color: white;
+}
+header img {
+    height: 60px;
+    width: 100px;
+    margin-top: 10px;
+}
+header h1 {
+    margin-top: 30px;
+}
+header p {
+    font-size: 12px;
+    margin-top: 150px;
+}
+main {
+    color: darkslategrey;
+    margin-top: 0px;
+    background-color: white;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+main h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.how-to-apply {
+    display: flex;
+    text-align: left;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.how-apply {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.h-t-a1p {
+    font-size: 12px;
+    line-height: 17px;
+}
+.h-t-a1 button {
+    margin-top: 10px;
+    color: white;
+    border: 1px solid darkslategrey;
+    background-color: darkslategrey;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.h-t-a1 button:hover {
+    background-color: slategray;
+    border: 1px solid  slategrey;
+}
+.h-t-a1 button:focus {
+    background-color: lightblue;
+    border: 1px solid  lightblue;
+}
+.h-t-a2p {
+    font-size: 12px;
+    line-height: 17px;
+}
+.h-t-a2 button {
+    margin-top: 10px;
+    color: white;
+    border: 1px solid darkslategrey;
+    background-color: darkslategrey;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.h-t-a2 button:hover {
+    background-color: slategray;
+    border: 1px solid  slategrey;
+}
+.h-t-a2 button:focus {
+    background-color: lightblue;
+    border: 1px solid  lightblue;
+}
+.about {
+    color: darkslategrey;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 40px;
+    background-color: lightcyan;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+}
+.pineapple {
+    display: flex;
+    justify-content: space-between;
+}
+.about img {
+    margin-top: 30px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 60px;
+}
+.about2 {
+    margin-top: 30px;
+    line-height: 200%;
+}
+.about2 button {
+    margin-top: 10px;
+    color: white;
+    border: 1px solid darkslategrey;
+    background-color: darkslategrey;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.about2 button:hover {
+    background-color: slategray;
+    border: 1px solid  slategrey;
+}
+.about2 button:focus {
+    background-color: lightblue;
+    border: 1px solid  lightblue;
+}
+.preparing {
+    display: flex;
+    justify-content: space-between;
+}
+.choosing-course {
+    margin-top: 20px;
+}
+.pic2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.prep-course1 img {
+    height: 100px;
+    width: 100px;
+}
+.prep-text {
+    line-height: 150%;
+    font-size: 14px;
+}
+.prep-text a {
+    color: darkslategrey;
+    font-size: 12px;
+}
+.choosing-career {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.pic3 {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.prep-course1 img {
+    height: 100px;
+    width: 100px;
+}
+.pre-text2 {
+    line-height: 150%;
+    font-size: 14px;
+}
+.pre-text2 a {
+    color: darkslategrey;
+    font-size: 12px;
+}
+.stressful {
+    display: flex;
+    justify-content: space-between;
+}
+.New {
+    color: darkslategrey;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 40px;
+    background-color: lightcyan;
+    padding: 10px 40px;
+    margin-bottom: -10px;
+}
+.licc {
+    margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.libraryp1 img {
+   height: 120px;
+   width: 160px;
+}
+.libraryp2 img {
+    height: 120px;
+    width: 160px;
+}
+.libraryp3 img {
+    height: 120px;
+    width: 160px;
+}
+.library {
+    margin-bottom: 10px;
+}
+.New button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid darkslategrey;
+    background-color: darkslategrey;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.New button:hover {
+    background-color: slategray;
+    border: 1px solid  slategrey;
+}
+.New button:focus {
+    background-color: lightblue;
+    border: 1px solid  lightblue;
+}
+footer {
+    background-color: teal;
+    padding: 10px 40px;
+    margin-top: -20px;
+    color: white;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+.contact a {
+    text-align: center;
+    margin-left: 35%;
+}
+footer h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+footer a {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    body {
+        margin: 100px 70px;
+    }
+}
+
+@media (max-width: 740px) {
+    body {
+        margin: 50px 35px;
+    }
+    body p {
+        font-size: 12px;
+    }
+    .last {
+        flex-direction: column;
+    }
+    .licc {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .stressful {
+        flex-direction: column;
+    }
+    .pic3 {
+        flex-direction: column;
+    }
+    .pic2 {
+        flex-direction: column;
+    }
+    .preparing {
+        flex-direction: column;
+    }
+    .pineapple {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .pic1 img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: -20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .how-to-apply {
+        flex-direction: column;
+        gap: 10px;
+    }
+    main {
+        font-size: 12px;
+    }
+    header {
+        height: 350px;
+    }
+    header p {
+        margin-top: 79px;
+        font-size: 7px;
+    }
+}
